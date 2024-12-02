@@ -1,3 +1,6 @@
+
+# 1. Napisac program realizujacy mnozenie macierzy (gdzie macierze sa reprezentowane przez listy)
+
 def create_hollow_matrix(a, b):
     m_out = [[0 for col in range(b)] for row in range(a)]
     return m_out
