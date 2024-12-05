@@ -25,7 +25,7 @@ class UserId:
                 "surname": self.surname,
                 "address": self.address,
                 "zip_code": self.zip_code,
-                "pesel": self.pesel,}
+                "pesel": self.pesel}
 
     def save_to_json(self, path):
         with open(path, "w") as file:

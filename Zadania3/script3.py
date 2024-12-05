@@ -2,6 +2,7 @@ import sys
 
 # 3. Napisac algorytm Dijkstry (przechodzenie najkrotszej sciezki w grafie)
 
+
 class Graph:
     def __init__(self, v: int):
         self.v = v
